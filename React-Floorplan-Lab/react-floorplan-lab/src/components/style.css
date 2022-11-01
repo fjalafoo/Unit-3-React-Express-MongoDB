@@ -1,0 +1,34 @@
+div {
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+     color:rgb(235, 223, 207);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   display:grid;
+  }
+
+  .bedroom {
+    background-color: rgb(29, 137, 140);
+  }
+
+  .bathroom {
+    background-color: rgb(6, 87, 29);
+  }
+
+  .livingroom {
+    background-color: rgb(217, 134, 70);
+  }
+
+  .kitchen {
+    background-color: rgb(152, 117, 148);
+  }
+
+  .oven {
+    background-color:crimson;
+  }
+
+  .sink {
+    background-color: rgb(16, 174, 195);
+  }
