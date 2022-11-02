@@ -9,11 +9,11 @@ function Student(props) {
     <div>
      <h3> {props.name}</h3>
       <p>{props.bio}</p>
-      {props.scores.map(s =>
-      <>
-        <div key={s.date}>{s.date}</div>
-        <div key={s.date}>{s.score}</div>
-      </> 
+      {props.scores.map((s, i) =>
+      <div key={i}>
+        <div>{s.date}</div>
+        <div>{s.score}</div>
+      </div> 
         )}
     </div>
   )

@@ -69,8 +69,9 @@ function App() {
   return (
     <div className="App">
 
-    {students.map(s => 
+    {students.map((s,i) => 
       <Student 
+      key={i}
       name={s.name}
       bio={s.bio}
       scores={s.scores}
